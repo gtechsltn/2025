@@ -1,4 +1,5 @@
 # Tech Notes on 2025
++ [HTML5](https://github.com/gtechsltn/HTML5-API-Paste-Image-From-Clipboard)
 + [Serilog in Console App](https://github.com/gtechsltn/Console-App-Code-Generator)
 + [Serilog in ASP.NET Core](https://github.com/gtechsltn/LoggingWithSerilog/tree/master/Src/LoggingWithSerilog/ASPNETCoreMVCWebApp)
   + .NET Core 10
