@@ -20,9 +20,11 @@
   + https://www.jaegertracing.io/
   
 # Automation (Tự động hóa)
-+ Tự động tạo GitHub Repo kèm Source Code và đẩy lên GitHub sử dụng **GitHub PAT**
++ **Tự động tạo GitHub Repo kèm Source Code và đẩy lên GitHub** sử dụng **GitHub PAT**
 + [Create-GitHub-Repo.ps1 (vẫn phải sửa đường dẫn gốc)](https://github.com/gtechsltn/LoggingWithSerilog/blob/master/Src/LoggingWithSerilog/Create-GitHub-Repo.ps1)
-+ Tự động triển khai lên IIS với HTTPS và **IIS Express Development Certificate**
++ [**Tự động tạo Console App Template**](https://github.com/gtechsltn/ConsoleApp)
+  + Generate ConsoleApp1 with Log4net, CsvHelper, Dapper, Dapper.Contrib, Newtonsoft.Json, System.Data.SQLite, EntityFramework, SQL Server + Connection String
++ **Tự động triển khai lên IIS với HTTPS Binding** và **IIS Express Development Certificate**
 + [DeployToIIS.ps1 (vẫn phải sửa đường dẫn gốc)](https://github.com/gtechsltn/LoggingWithSerilog/blob/master/Src/LoggingWithSerilog/DeployToIIS.ps1)
 + Tự động tạo bản Deploy sử dụng **MSBuild** với Release mode trong **Visual Studio 2022 Enterprise**
 + [BuildAndCopy.ps1 (vẫn phải sửa đường dẫn gốc)](https://github.com/gtechsltn/TSDataMigration/blob/master/BuildAndCopy.ps1)
