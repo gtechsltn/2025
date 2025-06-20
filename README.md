@@ -19,6 +19,18 @@
   + https://zipkin.io/
   + https://www.jaegertracing.io/
   
+# Automation (Tự động hóa)
++ Tự động tạo GitHub Repo kèm Source Code và đẩy lên GitHub sử dụng **GitHub PAT**
++ [Create-GitHub-Repo.ps1](https://github.com/gtechsltn/LoggingWithSerilog/blob/master/Src/LoggingWithSerilog/Create-GitHub-Repo.ps1)
++ Tự động triển khai lên IIS với HTTPS và **IIS Express Development Certificate**
++ [DeployToIIS.ps1](https://github.com/gtechsltn/LoggingWithSerilog/blob/master/Src/LoggingWithSerilog/DeployToIIS.ps1)
++ Tự động tạo bản Deploy sử dụng **MSBuild** với Release mode trong **Visual Studio 2022 Enterprise**
++ [BuildAndCopy.ps1](https://github.com/gtechsltn/TSDataMigration/blob/master/BuildAndCopy.ps1)
++ Tự động đóng gói vào tệp .zip để chuẩn bị chuyển giao cho bộ phận DevOps
++ [ZipPackage.ps1](https://github.com/gtechsltn/TSDataMigration/blob/master/ZipPackage.ps1)
++ Tự động triển khai lên **Windows Service (services.msc)** với tài khoản Windows (user: MANH\ADMIN, pass: Abc@123$)
++ [BuildAndDeploy.ps1](https://github.com/gtechsltn/TSDataMigration/blob/master/BuildAndDeploy.ps1)
+
 # Referecnes
 + https://betterstack.com/community/guides/logging/logging-best-practices/
 + https://betterstack.com/community/guides/logging/best-dotnet-logging-libraries/
