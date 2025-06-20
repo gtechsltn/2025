@@ -26,7 +26,7 @@
 + [DeployToIIS.ps1](https://github.com/gtechsltn/LoggingWithSerilog/blob/master/Src/LoggingWithSerilog/DeployToIIS.ps1)
 + Tự động tạo bản Deploy sử dụng **MSBuild** với Release mode trong **Visual Studio 2022 Enterprise**
 + [BuildAndCopy.ps1](https://github.com/gtechsltn/TSDataMigration/blob/master/BuildAndCopy.ps1)
-+ Tự động đóng gói vào tệp .zip để chuẩn bị chuyển giao cho bộ phận DevOps
++ **Tự động đóng gói vào tệp .zip** để chuẩn bị chuyển giao cho bộ phận **DevOps**
 + [ZipPackage.ps1](https://github.com/gtechsltn/TSDataMigration/blob/master/ZipPackage.ps1)
 + Tự động triển khai lên **Windows Service (services.msc)** với tài khoản Windows (user: MANH\ADMIN, pass: Abc@123$)
 + [BuildAndDeploy.ps1](https://github.com/gtechsltn/TSDataMigration/blob/master/BuildAndDeploy.ps1)
