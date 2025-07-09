@@ -1,4 +1,5 @@
 # Tech Notes on 2025
++ [Service-Oriented Architecture](https://docs.google.com/document/d/1RsFfJ-Bd-7FohgN-FXs4bKiI8BowZeAgHvQK_SKDBM8)
 + [HTML5](https://github.com/gtechsltn/HTML5-API-Paste-Image-From-Clipboard)
 + [GitHub Actions](https://github.com/gtechsltn/AspNetCoreAPI-GitHubAction)
 + [Security (Authentication + Authorization) in ASP.NET Core](https://docs.google.com/document/d/1sN38JmL0MWNPHAhd2KcHuKXqpxxrudWzvNYMmXSeWAw)
@@ -44,3 +45,72 @@
 + https://betterstack.com/community/guides/logging/best-dotnet-logging-libraries/
 + https://betterstack.com/community/guides/logging/how-to-start-logging-with-log4net/
 + https://betterstack.com/community/guides/logging/how-to-start-logging-with-serilog/
+
+```
+Solution for the coursera course Service-Oriented Architecture offered by University of Alberta
+https://github.com/gtechsltn/Service-Oriented-Architecture
+
+SOA module of a larger web portal. This module pertains to data warehousing and analysis, logging and advertisement services.
+https://github.com/markus-lamm/hv-sos100-dataservice
+https://github.com/gtechsltn/hv-sos100-dataservice
+
+This project contains prototype for SQL IDE developed as my course project for 3rd year of studies in kpi. Technologies: C#, WPF, PostgreSQL
+https://github.com/mynameiszp/sql-ide-project/tree/main
+https://github.com/gtechsltn/sql-ide-project
+
+✅ MVC 5, Bootstrap, Web API 2, JQuery, Ajax, EF6, DDD
+https://github.com/piotr-mamenas/performance-app
+https://github.com/gtechsltn/performance-app
+
+WEB API in .Net 7 with JWT Auth and EF Core. Ths is a Web API project for Authentication and Authorization. It used ASP.Net Core 7 using EF Core with MS SQL DB.
+https://github.com/ahsan-javied/Web-API-Dot-Net-Core-7
+https://github.com/gtechsltn/Web-API-Dot-Net-Core-7
+
+Northwind + AgularJS
+https://github.com/alisuleymantopuz/soa-arch
+https://github.com/gtechsltn/soa-arch
+
+Northwind Backend (.NET Core 3.1)
+This service oriented architecture project was developed on .NET Core.
+https://github.com/gtechsltn/NorthwindBackend
+
+Document Management System
+
+https://github.com/diaakhateeb/FRISS_DocumentManagementSystem
+https://github.com/gtechsltn/FRISS_DocumentManagementSystem
+
+ASP.NET WCF, MySQL
+
+A SOAP-based loan management system built with C# and ASP.NET WCF, designed to streamline library operations with CRUD functionalities for loans, user-friendly integration, and scalable service-oriented architecture.
+
+https://github.com/Yassinekrn/SOAP-Based-Loan-Management-WS
+https://github.com/gtechsltn/SOAP-Based-Loan-Management-WS
+
+Service-Oriented Architecture
+https://github.com/KountourisPanagiotis/products-soa-app
+https://github.com/gtechsltn/products-soa-app
+
+ShowCase: QuestionController
+https://github.com/cloudtoid/poem/blob/master/showcase/QnA/Controllers/QuestionController.cs
+
+Mini e-shop MVC project (.NET 6)
+https://github.com/ResadMemmedov0035/MiniEshopOnionDemo
+https://github.com/gtechsltn/MiniEshopOnionDemo
+
+Error Handlers
+https://github.com/ResadMemmedov0035/MiniEshopOnionDemo/blob/master/MiniEshop.Web/Controllers/ErrorHandleController.cs
+
+Background File Processing Service (.NET 8)
+https://github.com/Voidcoolis/CvsProcessorAPI
+https://github.com/gtechsltn/CvsProcessorAPI
+
+This API simulates a real-world background file processing service. CSV files uploaded by authenticated users are queued and processed line by line using a background service. This architecture showcases common backend engineering patterns.
+https://github.com/gtechsltn/CvsProcessorAPI/blob/master/CvsProcessorAPI/Queue/InMemoryFileProcessingQueue.cs
+
+Queue
+System.Collections.Concurrent
+ConcurrentQueue<string>
+IFileProcessingQueue
+Enqueue
+Dequeue
+```
