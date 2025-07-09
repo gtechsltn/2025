@@ -20,7 +20,11 @@
   + https://opentelemetry.io/
   + https://zipkin.io/
   + https://www.jaegertracing.io/
-  
+
+# Backend Development:
++ [.NET Framework 4.8](https://github.com/gtechsltn/BackendNetFw48)
++ [.NET 8](https://github.com/gtechsltn/BackendNet8)
+
 # Automation (Tự động hóa)
 + **Tự động tạo GitHub Repo kèm Source Code và đẩy lên GitHub** sử dụng **GitHub PAT**
 + [Create-GitHub-Repo.ps1 (vẫn phải sửa đường dẫn gốc)](https://github.com/gtechsltn/LoggingWithSerilog/blob/master/Src/LoggingWithSerilog/Create-GitHub-Repo.ps1)
