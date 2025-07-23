@@ -38,7 +38,9 @@
 + Dapper.Contrib 2.0.78
 + [CommandDefinition Structure](https://www.lluisfranco.com/dapper-how-to-change-commanddefinition-parameters-values/)
 + [CommandTimeout](https://github.com/gtechsltn/SPInsertData/blob/master/Opt2.CreateTestData/Program.cs)
-+ [Mapping](https://github.com/gtechsltn/SPInsertData/blob/master/Opt2/Program.cs)
++ [Program.cs](https://github.com/gtechsltn/SPInsertData/blob/master/Opt2/Program.cs)
++ [DapperConfig.Initialize();](https://github.com/gtechsltn/SPInsertData/blob/master/Opt2.CreateTestData/Program.cs#L35)
++ [DapperConfig.Initialize(){}](https://github.com/gtechsltn/SPInsertData/blob/master/Opt2.CreateTestData/Program.cs#L529)
 + [SPInsertData](https://github.com/gtechsltn/SPInsertData)
 + [SQL-JSON](https://github.com/gtechsltn/SQL-JSON)
 + TVP and Stored Procedure
