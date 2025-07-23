@@ -31,14 +31,85 @@
 + .NET Framework 4.8
 + Console App (C#)
 + CommandLineParser 2.9.1
-+ CsvHelper
-+ Log4Net
-+ Dapper
-+ Dapper.Contrib
-+ CommandDefinition
-+ CommandTimeout
++ Newtonsoft.Json 13.0.3
++ CsvHelper 33.1.0
++ log4net 3.1.0
++ Dapper 2.0.78
++ Dapper.Contrib 2.0.78
++ [CommandDefinition Structure](https://www.lluisfranco.com/dapper-how-to-change-commanddefinition-parameters-values/)
++ [CommandTimeout](https://github.com/gtechsltn/SPInsertData/blob/master/Opt2.CreateTestData/Program.cs)
++ [Mapping](https://github.com/gtechsltn/SPInsertData/blob/master/Opt2/Program.cs)
 + [SPInsertData](https://github.com/gtechsltn/SPInsertData)
 + [SQL-JSON](https://github.com/gtechsltn/SQL-JSON)
++ TVP and Stored Procedure
+
+## Step 1: SQL Server – Define Table Type
+```
+CREATE TYPE dbo.TVP_Workspace AS TABLE
+(
+    WkSpcID BIGINT,
+    MetaJson NVARCHAR(MAX)
+);
+```
+
+## Step 2: SQL Server – Stored Procedure
+```
+CREATE PROCEDURE dbo.InsertMetaWorkspaces
+    @Workspaces dbo.TVP_Workspace READONLY
+AS
+BEGIN
+    INSERT INTO meta_workspaces (WkSpcID, meta_json)
+    SELECT WkSpcID, MetaJson FROM @Workspaces;
+END
+```
+
+## Step 3: C# – Create DataTable for TVP
+```
+private static DataTable CreateWorkspaceTvp(IEnumerable<MetaWorkspace> workspaces)
+{
+    var table = new DataTable();
+    table.Columns.Add("WkSpcID", typeof(long));
+    table.Columns.Add("MetaJson", typeof(string));
+
+    foreach (var ws in workspaces)
+    {
+        table.Rows.Add(ws.WkSpcID, ws.MetaJson);
+    }
+
+    return table;
+}
+```
+
+## Step 4: Dapper – Call Stored Procedure with CommandDefinition
+```
+using (var connection = new SqlConnection(connectionString))
+{
+    var workspaces = new List<MetaWorkspace>
+    {
+        new MetaWorkspace { WkSpcID = 1, MetaJson = "{ \"a\": 1 }" },
+        new MetaWorkspace { WkSpcID = 2, MetaJson = "{ \"b\": 2 }" }
+    };
+
+    var tableParam = new SqlParameter("@Workspaces", CreateWorkspaceTvp(workspaces))
+    {
+        SqlDbType = SqlDbType.Structured,
+        TypeName = "dbo.TVP_Workspace"
+    };
+
+    var command = new CommandDefinition(
+        commandText: "dbo.InsertMetaWorkspaces",
+        parameters: new { }, // we'll inject via DynamicParameters
+        commandType: CommandType.StoredProcedure,
+        commandTimeout: 60
+    );
+
+    var dynamicParams = new DynamicParameters();
+    dynamicParams.Add("@Workspaces", tableParam.Value, DbType.Object, ParameterDirection.Input);
+
+    // You can also pass SqlParameter directly via ADO.NET
+    connection.Execute(command.CommandText, dynamicParams, commandType: command.CommandType);
+}
+```
 
 # Backend Development:
 + [.NET Framework 4.8](https://github.com/gtechsltn/BackendNetFw48)
