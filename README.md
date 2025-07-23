@@ -25,6 +25,21 @@
   + https://zipkin.io/
   + https://www.jaegertracing.io/
 
+# .NET Framework 4.8
++ OpenAI ChatGPT
++ Google Gemini
++ .NET Framework 4.8
++ Console App (C#)
++ CommandLineParser 2.9.1
++ CsvHelper
++ Log4Net
++ Dapper
++ Dapper.Contrib
++ CommandDefinition
++ CommandTimeout
++ [SPInsertData](https://github.com/gtechsltn/SPInsertData)
++ [SQL-JSON](https://github.com/gtechsltn/SQL-JSON)
+
 # Backend Development:
 + [.NET Framework 4.8](https://github.com/gtechsltn/BackendNetFw48)
 + [.NET 8](https://github.com/gtechsltn/BackendNet8)
