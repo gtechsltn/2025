@@ -1,4 +1,6 @@
 # Tech Notes on 2025
++ [Windows Console Application (C#) vs Windows Service (C#)](https://github.com/gtechsltn/CsvPdfWatcherService)
++ [CsvReaderUI](https://github.com/gtechsltn/CsvReaderUI)
 + [Service-Oriented Architecture](https://docs.google.com/document/d/1RsFfJ-Bd-7FohgN-FXs4bKiI8BowZeAgHvQK_SKDBM8)
 + [Library Management System](https://github.com/gtechsltn/LibMgmtSys)
   + D:\gtechsltn\LibMgmtSys\Src\LMS\Program.cs
