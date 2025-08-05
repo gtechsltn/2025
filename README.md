@@ -1,4 +1,6 @@
 # Tech Notes on 2025
++ [UserInfoMgmt](https://github.com/gtechsltn/UserInfoMgmt)
++ [FluentBlazorCrudApp](https://github.com/gtechsltn/FluentBlazorCrudApp)
 + [DBToWordPDF or SqlDbExporter](https://github.com/gtechsltn/DBToWordPDF)
 + [ClosedXML](https://github.com/gtechsltn/ClosedXML)
 + [Windows Console Application (C#) vs Windows Service (C#)](https://github.com/gtechsltn/CsvPdfWatcherService)
