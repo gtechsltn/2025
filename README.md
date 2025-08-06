@@ -1,4 +1,5 @@
 # Tech Notes on 2025
++ [Clean Architecture Blazor UI](https://docs.google.com/document/d/1PG0b_OrXPl97URJXEQjVn2I0hmaNLyCCQlp3NnWO0nQ)
 + [UserInfoMgmt (2025-Aug-04)](https://github.com/gtechsltn/UserInfoMgmt)
 + [FluentBlazorCrudApp (2025-Aug-05)](https://github.com/gtechsltn/FluentBlazorCrudApp)
 + [DBToWordPDF or SqlDbExporter](https://github.com/gtechsltn/DBToWordPDF)
