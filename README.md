@@ -1,4 +1,5 @@
 # Tech Notes on 2025
++ [Tool Exec SQL Files (Batch processing + Parallel processing](https://github.com/gtechsltn/AdoNetExecSQLFiles)
 + [Enterprise_WebAPI_Starter_Kit (HAY HAY HAY)](https://github.com/gtechsltn/Enterprise_WebAPI_Starter_Kit)
 + [Clean Architecture Blazor UI](https://docs.google.com/document/d/1PG0b_OrXPl97URJXEQjVn2I0hmaNLyCCQlp3NnWO0nQ)
 + [UserInfoMgmt (2025-Aug-04)](https://github.com/gtechsltn/UserInfoMgmt)
