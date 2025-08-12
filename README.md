@@ -1,5 +1,7 @@
 # Tech Notes on 2025
 + [Tool Exec SQL Files (Batch processing + Parallel processing](https://github.com/gtechsltn/AdoNetExecSQLFiles)
++ [Tool Exec SQL Files (ChatGPT)](https://chatgpt.com/c/689aa0b9-92e0-8321-8a25-a350188e6767)
++ [ConsoleCleanArch](https://github.com/gtechsltn/ConsoleCleanArch)
 + [Enterprise_WebAPI_Starter_Kit (HAY HAY HAY)](https://github.com/gtechsltn/Enterprise_WebAPI_Starter_Kit)
 + [Clean Architecture Blazor UI](https://docs.google.com/document/d/1PG0b_OrXPl97URJXEQjVn2I0hmaNLyCCQlp3NnWO0nQ)
 + [UserInfoMgmt (2025-Aug-04)](https://github.com/gtechsltn/UserInfoMgmt)
