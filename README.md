@@ -1,4 +1,5 @@
 # Tech Notes on 2025
++ [WebBanHang](https://github.com/gtechsltn/WebBanHang)
 + [Tool Exec SQL Files (Batch processing + Parallel processing)](https://github.com/gtechsltn/AdoNetExecSQLFiles)
 + [Tool Exec SQL Files (ChatGPT)](https://chatgpt.com/c/689aa0b9-92e0-8321-8a25-a350188e6767)
 + [ConsoleCleanArch](https://github.com/gtechsltn/ConsoleCleanArch)
