@@ -1,5 +1,7 @@
 # Tech Notes on 2025
 
+# Updated on 2025-09-18
+
 ### Chuẩn hóa tài liệu .md
 https://github.com/gtechsltn/FileReplacer
 
@@ -12,6 +14,7 @@ https://github.com/gtechsltn/CsvGenerator
 ### Tìm lỗi nếu có trên toàn bộ tệp log ở thư mục D:\ThirdSight\logs\ThirdSight.DataMigration1
 https://github.com/gtechsltn/SearchText
 
+# Tech Notes on 2025
 + [EF4TS (HAY HAY HAY HAY HAY)](https://github.com/gtechsltn/EF4TS)
 + [EFCoreConsole](https://github.com/gtechsltn/EFCoreConsole)
 + [EFSeederTool (HAY HAY HAY HAY HAY)](https://github.com/gtechsltn/EFSeederTool)
