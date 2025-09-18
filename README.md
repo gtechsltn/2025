@@ -1,4 +1,17 @@
 # Tech Notes on 2025
+
+### Chuẩn hóa tài liệu .md
+https://github.com/gtechsltn/FileReplacer
+
+### So sánh đầu ra của 2 lần chạy ở 2 branch (master và hotfix/SG)
+https://github.com/gtechsltn/FolderCompare
+
+### Tạo tệp đầu vào cho Data Export tool (xóa log, xóa bagit, chạy script reset db, tạo tệp input.csv, sửa connection string ở D:\ThirdSight\ThirdSight.DataMigration1\TSDataExport.exe.config)
+https://github.com/gtechsltn/CsvGenerator
+
+### Tìm lỗi nếu có trên toàn bộ tệp log ở thư mục D:\ThirdSight\logs\ThirdSight.DataMigration1
+https://github.com/gtechsltn/SearchText
+
 + [EF4TS (HAY HAY HAY HAY HAY)](https://github.com/gtechsltn/EF4TS)
 + [EFCoreConsole](https://github.com/gtechsltn/EFCoreConsole)
 + [EFSeederTool (HAY HAY HAY HAY HAY)](https://github.com/gtechsltn/EFSeederTool)
