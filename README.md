@@ -1,4 +1,12 @@
 # Tech Notes on 2025
++ .NET Framework (2002–2022)
++ .NET Core (2016–2020)
++ .NET 5+ (2020-2025)
+    + .NET 6 (Released November 2021)
+    + .NET 7 (Released November 2022)
+    + .NET 8 (Released November 2023)
+    + .NET 9 (Released November 2024)
+    + .NET 10 (Will be release on November 2025)
 + Dapper
 + EF Core
 + EF Core Bulk extensions
@@ -13,6 +21,7 @@
 + [CRUD Ajax MVC](https://np4652.medium.com/building-a-crud-application-in-net-core-8-with-ajax-partial-views-and-dapper-e9f083c30e43)
 + [CRUD Ajax MVC Bulk Insert with TVPs](https://np4652.medium.com/bulk-insert-via-table-valued-parameters-tvp-with-jquery-ajax-in-net-8-b61922fc081f)
 + [EFCore.BulkExtensions](https://github.com/borisdj/EFCore.BulkExtensions)
++ [SOAP ASMX in .NET 8](https://medium.com/@imtejassingh/creating-and-hosting-a-local-soap-service-in-asp-net-core-using-soapcore-2f9285d94fb3)
 
 # Tôi muốn chỉ tải về một thư mục của GitHub thì làm như thế nào?
 
