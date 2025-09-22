@@ -1,8 +1,18 @@
 # Tech Notes on 2025
++ Dapper
++ EF Core
++ EF Core Bulk extensions
++ SQL Bulk Copy
++ Entity Framework Extensions
 
 # Updated on 2025-09-22
 + [TickerQ](https://github.com/gtechsltn/TickerQ-Demo)
 + [SqlBulkHelpers](https://github.com/gtechsltn/SqlBulkHelpers)
+    + https://timdeschryver.dev/blog/faster-sql-bulk-inserts-with-csharp
+    + https://github.com/borisdj/EFCore.BulkExtensions
+    + https://entityframework-plus.net/
+    + https://dapper-plus.net/overview
+    + https://bulk-operations.net/
 + [RepoDb.SqlServer](https://github.com/mikependon/RepoDb/tree/master/RepoDb.SqlServer)
 + [RepoDb.SqlServer => ExecuteQueryMultiple](https://repodb.net/operation/executequerymultiple)
 + [UnitOfWork](https://theochiu2010.medium.com/entityframework-core-migration-code-first-part-iv-misc-configurations-and-final-code-for-f3e8fd90de2a)
