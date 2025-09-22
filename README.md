@@ -5,6 +5,42 @@
 + SQL Bulk Copy
 + Entity Framework Extensions
 
+# Tôi muốn chỉ tải về một thư mục của GitHub thì làm như thế nào?
+
+<img width="851" height="486" alt="image" src="https://github.com/user-attachments/assets/63b4260d-f526-401d-8d38-9b704c900b85" />
+
+```
+D:\gtechsltn>mkdir my-project
+
+D:\gtechsltn>cd my-project
+
+D:\gtechsltn\my-project>git init
+Initialized empty Git repository in D:/gtechsltn/my-project/.git/
+
+D:\gtechsltn\my-project>git sparse-checkout init --cone
+
+D:\gtechsltn\my-project>git remote add origin https://github.com/launchdarkly/dotnet-core.git
+
+D:\gtechsltn\my-project>git sparse-checkout set pkgs/sdk/server/src
+
+D:\gtechsltn\my-project>git pull origin main
+remote: Enumerating objects: 12769, done.
+remote: Counting objects: 100% (1389/1389), done.
+remote: Compressing objects: 100% (546/546), done.
+Receiving objects: 100% (12769/12769), 3.37 MiB | 9.32 MiB/s, done.
+
+Resolving deltas: 100% (8347/8347), done.
+From https://github.com/launchdarkly/dotnet-core
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+D:\gtechsltn\my-project>
+```
+
+# Hangfire
++ https://medium.com/@iamrks/building-a-flexible-background-job-scheduler-in-net-core-using-hangfire-b20fd17e4765
++ https://np4652.medium.com/building-a-configurable-background-job-engine-in-net-core-like-hangfire-part-1-d9be899c6ba7
+
 # Updated on 2025-09-22
 + [TickerQ](https://github.com/gtechsltn/TickerQ-Demo)
 + [SqlBulkHelpers](https://github.com/gtechsltn/SqlBulkHelpers)
