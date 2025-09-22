@@ -4,6 +4,14 @@
 + EF Core Bulk extensions
 + SQL Bulk Copy
 + Entity Framework Extensions
++ [Web Api Best Practices](https://np4652.medium.com/api-creation-best-practices-in-net-core-lessons-from-the-field-46038abf3d38)
++ [Bulk Insert](https://np4652.medium.com/bulk-insert-into-sql-server-using-net-8-sqlbulkcopy-vs-table-valued-parameters-tvp-3a50a05acb81)
++ [Dapper Bulk Insert vs Bulk Copy vs TVPs](https://medium.com/@gabrieletronchin/c-net-8-sql-bulk-insert-dapper-vs-bulkcopy-vs-table-value-parameters-665d9db39477)
++ [Bulk Insert](https://www.milanjovanovic.tech/blog/fast-sql-bulk-inserts-with-csharp-and-ef-core)
++ [Cookie Auth in MVC](https://np4652.medium.com/creating-cookie-based-authentication-and-authorization-in-net-core-4aa25f1e845a)
++ [Cookie Injection](https://np4652.medium.com/understanding-cookie-injection-and-prevention-in-net-core-1477015dda11)
++ [CRUD Ajax MVC](https://np4652.medium.com/building-a-crud-application-in-net-core-8-with-ajax-partial-views-and-dapper-e9f083c30e43)
++ [CRUD Ajax MVC Bulk Insert with TVPs](https://np4652.medium.com/bulk-insert-via-table-valued-parameters-tvp-with-jquery-ajax-in-net-8-b61922fc081f)
 
 # Tôi muốn chỉ tải về một thư mục của GitHub thì làm như thế nào?
 
