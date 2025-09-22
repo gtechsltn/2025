@@ -12,6 +12,7 @@
 + [Cookie Injection](https://np4652.medium.com/understanding-cookie-injection-and-prevention-in-net-core-1477015dda11)
 + [CRUD Ajax MVC](https://np4652.medium.com/building-a-crud-application-in-net-core-8-with-ajax-partial-views-and-dapper-e9f083c30e43)
 + [CRUD Ajax MVC Bulk Insert with TVPs](https://np4652.medium.com/bulk-insert-via-table-valued-parameters-tvp-with-jquery-ajax-in-net-8-b61922fc081f)
++ [EFCore.BulkExtensions](https://github.com/borisdj/EFCore.BulkExtensions)
 
 # Tôi muốn chỉ tải về một thư mục của GitHub thì làm như thế nào?
 
