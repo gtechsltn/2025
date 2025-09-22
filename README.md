@@ -45,7 +45,11 @@ From https://github.com/launchdarkly/dotnet-core
 D:\gtechsltn\my-project>
 ```
 
+# Integrating TypeScript and jQuery
++ [Integrating TypeScript and jQuery in a .NET Core 8.0 application is straightforward with Webpack as the module bundler](https://np4652.medium.com/integrating-typescript-and-jquery-in-net-core-8-0-b8706efc0cc6)
+
 # Hangfire
++ https://github.com/HangfireIO/Cronos
 + https://medium.com/@iamrks/building-a-flexible-background-job-scheduler-in-net-core-using-hangfire-b20fd17e4765
 + https://np4652.medium.com/building-a-configurable-background-job-engine-in-net-core-like-hangfire-part-1-d9be899c6ba7
 
