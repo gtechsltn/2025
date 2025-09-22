@@ -1,5 +1,55 @@
 # Tech Notes on 2025
 
+# Updated on 2025-09-22
++ [TickerQ](https://github.com/gtechsltn/TickerQ-Demo)
++ [SqlBulkHelpers](https://github.com/gtechsltn/SqlBulkHelpers)
++ [RepoDb.SqlServer](https://github.com/mikependon/RepoDb/tree/master/RepoDb.SqlServer)
++ [RepoDb.SqlServer => ExecuteQueryMultiple](https://repodb.net/operation/executequerymultiple)
++ [UnitOfWork](https://theochiu2010.medium.com/entityframework-core-migration-code-first-part-iv-misc-configurations-and-final-code-for-f3e8fd90de2a)
+```
+namespace Data.Repository
+{
+    public class UnitOfWork : IUnitOfWork
+    {
+        public IAccountRepository AccountRepository { get; set; }
+
+        private WebBaseEntityContext _dbEntity;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IServiceProvider _serviceProvider;
+        private readonly ConfigOptions _configOptions;
+
+        public UnitOfWork(
+            ConfigOptions configOptions,
+            IHttpContextAccessor httpContextAccessor,
+            IServiceProvider serviceProvider)
+        {
+            _configOptions = configOptions;
+            _httpContextAccessor = httpContextAccessor;
+            _serviceProvider = serviceProvider;
+        }
+
+        public string GetDatabaseName()
+        {
+            _dbEntity = _serviceProvider.GetRequiredService<WebBaseEntityContext>();
+
+            var timeoutInSeconds = int.Parse(_configOptions.DatabaseTimeoutInSeconds);
+            _dbEntity.Database.SetCommandTimeout(timeoutInSeconds);
+
+            return _dbEntity.Database.GetDbConnection().Database;
+        }
+        ...
+    }
+}
+```
+
+## RepoDb.SqlServer => Passing of Parameters
+* IDbDataParameter
+* Anonymous Types
+* ExpandoObject
+* Dictionary<string, object>
+* QueryField
+* QueryGroup
+
 # Updated on 2025-09-18
 
 ### Chuẩn hóa tài liệu .md
