@@ -1,5 +1,5 @@
 # Vis.js Timeline
-+ [visjs.org](https://visjs.org/)    
++ [Website visjs.org](https://visjs.org/)    
     + https://visjs.github.io/vis-timeline/examples/timeline/
     + https://visjs.github.io/vis-timeline/docs/timeline/
     + https://github.com/visjs/vis-timeline
