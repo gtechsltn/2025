@@ -1,5 +1,11 @@
-# Tech Notes on 2025
+# Vis.js Timeline
++ [visjs.org](https://visjs.org/)    
+    + https://visjs.github.io/vis-timeline/examples/timeline/
+    + https://visjs.github.io/vis-timeline/docs/timeline/
+    + https://github.com/visjs/vis-timeline
 + [TimelineApi](https://github.com/gtechsltn/TimelineApi)
+
+# Tech Notes on 2025
 + .NET Framework (2002–2022)
 + .NET Core (2016–2020)
 + .NET 5+ (2020-2025)
