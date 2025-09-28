@@ -3,7 +3,8 @@
     + https://visjs.github.io/vis-timeline/examples/timeline/
     + https://visjs.github.io/vis-timeline/docs/timeline/
     + https://github.com/visjs/vis-timeline
-+ [TimelineApi](https://github.com/gtechsltn/TimelineApi)
++ [TimelineApi](https://github.com/gtechsltn/TimelineApi) (Build Mvc + Deploy to IIS)
++ [Central Package Management (CPM)](https://github.com/gtechsltn/Central-Package-Management) (Build Mvc + Deploy to IIS)
 
 # Tech Notes on 2025
 + .NET Framework (2002–2022)
