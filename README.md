@@ -393,3 +393,10 @@ TrustServerCertificate=False;
 Pooling=True;
 Connect Timeout=30;
 ```
+
+##  Quick decision flow
+| Scenario | Recommended Connection String |
+| -- | -- |
+| Local/dev box | Encrypt=False; |
+| Internal test server (self-signed cert) | Encrypt=True;TrustServerCertificate=True; |
+| Production (CA-signed cert) | Encrypt=True;TrustServerCertificate=False; |
