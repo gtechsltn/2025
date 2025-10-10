@@ -368,3 +368,28 @@ Dequeue
 + [ThirdSight-SLA-GetUniqueFileRefNum](https://diskstation2:3000/manh.nguyen/ThirdSight-SLA-GetUniqueFileRefNum)
 + [Rename-Replace](https://github.com/gtechsltn/Rename-Replace)
 + [ThirdSight-SLA-PreCheck](https://diskstation2:3000/manh.nguyen/ThirdSight-SLA-PreCheck)
+
+# Connection String in EF Core
+### Case 01: (Encrypt=True, TrustServerCertificate=False)
+Only if your SQL Server has a valid SSL/TLS certificate.
+```
+​Data Source=tcp:NPTDIFILEDB1P,1436;
+Initial Catalog=Thirdsight;
+Integrated Security=SSPI;
+Encrypt=True;
+TrustServerCertificate=False;
+Pooling=True;
+Connect Timeout=30;
+```
+
+### Case 02: (Encrypt=False, TrustServerCertificate=False)
+Only for testing, dev, or isolated on-prem networks.
+```
+​Data Source=tcp:NPTDIFILEDB1P,1436;
+Initial Catalog=Thirdsight;
+Integrated Security=SSPI;
+Encrypt=False;
+TrustServerCertificate=False;
+Pooling=True;
+Connect Timeout=30;
+```
