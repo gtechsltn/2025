@@ -5,6 +5,7 @@
     + ...
     + Remove "new Ext.Window({...})" + Kepp "{...}" only
 + ConfigHelper.CleanTemplateJson method that remove 31 ExtJS classes
+    + [**RegExp**](https://github.com/gtechsltn/RegExp)
 + Unit Tests with MSTest
     + Using DataRow with 31 test cases in 1 method
 + DbSchemaGenerator
