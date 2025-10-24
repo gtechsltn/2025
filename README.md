@@ -1,3 +1,15 @@
+# Regular Expression (regex): CleanTemplateJson + Unit Testing
++ Regular Expression (regex) that matches any object instantiation starting with Ext...
+    + Remove "new Ext.data.SimpleStore({...})" + Kepp "{...}" only
+    + Remove "new Ext.data.Store({...})" + Kepp "{...}" only
+    + ...
+    + Remove "new Ext.Window({...})" + Kepp "{...}" only
++ ConfigHelper.CleanTemplateJson method that remove 31 ExtJS classes
++ Unit Tests with MSTest
+    + Using DataRow with 31 test cases in 1 method
++ DbSchemaGenerator
++ DbSchemaExtractor
+
 # Vis.js Timeline
 + [Website visjs.org](https://visjs.org/)    
     + https://visjs.github.io/vis-timeline/examples/timeline/
