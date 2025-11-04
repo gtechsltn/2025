@@ -1,3 +1,12 @@
+# Simplest way to ... Fully complete .NET 8 Minimal API template (Dapper CRUD + Transaction + LocalDB + Serilog + Swagger + Unit Tests + Integration Tests)
+* [Developer Guidelines + DevOps Guidelines + Scale to Cloud](https://docs.google.com/document/d/1gDPUJKlIFAsTDPvrIkY30jxTkNEgSknv-YlO8ph3KEg/)
+
+# Carrot Search FoamTree
++ Carrot Search **FoamTree**
+
+# Vis.js Graph3d
++ Vis.js **Graph3d**
+
 # Regular Expression (regex): CleanTemplateJson + Unit Testing
 + Regular Expression (regex) that matches any object instantiation starting with Ext...
     + Remove "new Ext.data.SimpleStore({...})" + Kepp "{...}" only
