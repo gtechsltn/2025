@@ -1,5 +1,13 @@
-# Simplest way to ... Fully complete .NET 8 Minimal API template (Dapper CRUD + Transaction + LocalDB + Serilog + Swagger + Unit Tests + Integration Tests)
+# Simplest way to ... Fully complete .NET 8 Minimal API template
 * [Developer Guidelines + DevOps Guidelines + Scale to Cloud](https://docs.google.com/document/d/1gDPUJKlIFAsTDPvrIkY30jxTkNEgSknv-YlO8ph3KEg/)
+* .NET 8 Minimal API
+* SQL Server
+* Dapper CRUD (IDbConnectionFactory)
+* Transaction
+* Serilog
+* Swagger
+* Unit Tests (InMemoryDB)
+* Integration Tests (LocalDB)
 
 # Carrot Search FoamTree
 + Carrot Search **FoamTree**
