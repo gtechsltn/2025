@@ -1,14 +1,14 @@
 # Console App (VB.NET) Project File (.csproj)
 ```
 <PropertyGroup>
-    <LangVersion>preview</LangVersion>
+    <LangVersion>latest</LangVersion>
 </PropertyGroup>
 ```
 
 # Console App (C#) Project File (.csproj)
 ```
 <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>preview</LangVersion>
 </PropertyGroup>
 ```
 
