@@ -1,3 +1,17 @@
+# Console App (VB.NET) Project File (.csproj)
+```
+<PropertyGroup>
+    <LangVersion>preview</LangVersion>
+</PropertyGroup>
+```
+
+# Console App (C#) Project File (.csproj)
+```
+<PropertyGroup>
+    <LangVersion>latest</LangVersion>
+</PropertyGroup>
+```
+
 # Simplest way to ... Fully complete .NET 8 Minimal API template
 * [Developer Guidelines + DevOps Guidelines + Scale to Cloud](https://docs.google.com/document/d/1gDPUJKlIFAsTDPvrIkY30jxTkNEgSknv-YlO8ph3KEg/)
 * .NET 8 Minimal API
