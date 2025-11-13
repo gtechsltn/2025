@@ -1,3 +1,10 @@
+# Xử lý việc thiếu thẻ đóng của thẻ A trong tệp HTML
++ https://github.com/gtechsltn/MalformedHtmlFix
++ System.Text.RegularExpressions
++ Aspose.Email for .NET version 20.5
++ HtmlAgilityPack
++ HtmlSanitizer (Ganss.Xss)
+
 # Console App (VB.NET) Project File (.csproj)
 ```
 <PropertyGroup>
