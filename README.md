@@ -1,4 +1,5 @@
-# Xử lý việc thiếu thẻ đóng của thẻ A trong tệp HTML
+# Dealing with missing closing tag of A tag in HTML file
++ Xử lý việc thiếu thẻ đóng của thẻ A trong tệp HTML
 + https://github.com/gtechsltn/MalformedHtmlFix
 + System.Text.RegularExpressions
 + Aspose.Email for .NET version 20.5
