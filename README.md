@@ -6,6 +6,9 @@
 + HtmlAgilityPack
 + HtmlSanitizer (Ganss.Xss)
 
+# CSharpConsoleApp.CommandLineApp ~ Console App (C#)
+* https://github.com/gtechsltn/CSharpConsoleApp.CommandLineApp
+
 # Console App (VB.NET) Project File (.csproj)
 ```
 <PropertyGroup>
